@@ -6,6 +6,8 @@ Created on Sun Sep 13 09:46:26 2020
 """
 from Frontier import *
 from Problems import *
+import numpy as np
+
 
 def graphSearch(problem,frontier):
     explored=dict()
